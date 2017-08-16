@@ -1,0 +1,60 @@
+*{margin: auto; position: relative; text-align: center;	font-family: arial, sans-serif;}
+
+.logo{
+	width: 272px; /*! min-width: 92px; */ height: 92px;
+	background-image: url("https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+	background-repeat: no-repeat;
+	background-size: contain; background-position: left top;
+	margin: 200px auto 0 auto;
+}
+
+.country{
+	width: auto; height: auto;
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #4285f4;
+	font: 16px arial, sans-serif;
+}
+
+p{
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+input{
+	width: 584px;
+	height: 34px;
+	text-align: left;
+}
+
+.search_bar{
+	margin-top: 15px;
+}
+
+input:hover {
+	box-shadow: 0px 1px 1.5px 1px rgba(0, 0, 0, 0.1) ;
+
+}
+
+.button{
+	box-sizing: content-box;
+	color: #222;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-color: #f8f8f8;
+	padding: 10px 16px 0 16px;
+	font-weight: bold;
+	width: 124px;
+	height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	margin: 30px 4px 30px 4px;
+	
+	} /* General format for the 2 search buttons */
+
+.search_button{position: relative;clear: right;} 
+
+.lucky_button{clear: left;position: relative;}
